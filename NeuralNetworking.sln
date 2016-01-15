@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkingTests", "NeuralNetworkingTests\NeuralNetworkingTests.csproj", "{C89F8B9E-2684-43C0-B240-D57211C7A307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGenerator", "MazeGenerator\MazeGenerator.csproj", "{91765F97-CDFB-458B-883F-0C60741B1085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurvivalGame", "..\SurvivalGame\SurvivalGame\SurvivalGame.csproj", "{3784C402-F0A6-4F93-AC02-BBBB10203258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89F8B9E-2684-43C0-B240-D57211C7A307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89F8B9E-2684-43C0-B240-D57211C7A307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89F8B9E-2684-43C0-B240-D57211C7A307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89F8B9E-2684-43C0-B240-D57211C7A307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91765F97-CDFB-458B-883F-0C60741B1085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91765F97-CDFB-458B-883F-0C60741B1085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91765F97-CDFB-458B-883F-0C60741B1085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91765F97-CDFB-458B-883F-0C60741B1085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3784C402-F0A6-4F93-AC02-BBBB10203258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3784C402-F0A6-4F93-AC02-BBBB10203258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3784C402-F0A6-4F93-AC02-BBBB10203258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3784C402-F0A6-4F93-AC02-BBBB10203258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

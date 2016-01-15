@@ -1,0 +1,25 @@
+﻿<Window x:Class="MazeGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:local="clr-namespace:MazeGenerator"
+        Title="Dungeon Generator"
+		Width="800" Height="600">
+
+    <!--<local:LabyrinthView>
+        <local:LabyrinthView.DataContext>
+            <Binding Path="Labyrinth" Source="{StaticResource Locator}" />
+        </local:LabyrinthView.DataContext>
+    </local:LabyrinthView>-->
+
+    <!--<local:BSPView>
+        <local:BSPView.DataContext>
+            <Binding Path="BSP" Source="{StaticResource Locator}" />
+        </local:BSPView.DataContext>
+    </local:BSPView>-->
+    
+    <local:DugoutView>
+        <local:DugoutView.DataContext>
+            <Binding Path="Dugout" Source="{StaticResource Locator}" />
+        </local:DugoutView.DataContext>
+    </local:DugoutView>
+</Window>
